@@ -9,16 +9,16 @@ const ftp = require('vinyl-ftp');
 
 gulp.task('deploy', ()=>{
     let conn = ftp.create({
-        host:'calebprenger.com',
-        user:'calebprenger',
-        password:'s!dJ#4p}_tL3',
+        host:'#',
+        user:'#',
+        password:'#',
         parallel:10
     });
     let globs = [
         './dist/*'
     ];
     return gulp.src(globs, {base:'.',buffer:false})
-    .pipe(conn.dest('/public_html/gulpftp'))
+    .pipe(conn.dest('/public_html'))
 });
 
 gulp.task('scss', ()=>{
