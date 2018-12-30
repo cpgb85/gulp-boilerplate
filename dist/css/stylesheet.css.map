@@ -1,0 +1,1 @@
+{"version":3,"sources":["stylesheet.scss"],"names":[],"mappings":"AAAA,EACI,QAAA,EACA,OAAA,EACA,mBAAA,WAAA,gBAAA,WAAA,WAAA","file":"stylesheet.css","sourcesContent":["*{\r\n    padding: 0;\r\n    margin: 0;\r\n    box-sizing:border-box;\r\n}"]}
